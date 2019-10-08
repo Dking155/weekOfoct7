@@ -15,3 +15,13 @@ print(joke_evaluation % hilarious)
 
 w = "This is the left side of.."
 e = "a string with a right side."
+
+print(w + e)
+
+
+# more stuff 10-8
+
+print("Mary had a little lamb")
+print("Its fleece was what as %s." % 'snow')
+print("And everywhere that Mary went.")
+print("." * 10)
