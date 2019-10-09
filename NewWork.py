@@ -52,3 +52,12 @@ print(formatter % (formatter, formatter, formatter, formatter))
 
 # why did I  use %r instead of %s?
 # because you used it at the beginning
+
+# Time for some strange stuff in te world of printing...
+
+days = "mon tue wed thu fri sat sun"
+months = "jan\nfeb\nmar\napr\nmay\njun\njuly\naug"
+
+print("here are the days: ", days)
+print("here are the months: ", months)
+
