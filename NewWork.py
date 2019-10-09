@@ -66,3 +66,6 @@ Theres something going on here.
 With the three double-quotes.
 Well be able to type as much as we like
 even 4 lines if we want, or 5 or 6.""")
+
+# what if i didn't like jan being listed on the line wait for the rest of them.
+# text and ,may
