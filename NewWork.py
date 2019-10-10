@@ -68,4 +68,11 @@ Well be able to type as much as we like
 even 4 lines if we want, or 5 or 6.""")
 
 # what if i didn't like jan being listed on the line wait for the rest of them.
-# text and ,may
+# text and ,may.
+
+# Asking questions
+
+age= input("how old are you?")
+height = input("how tall are you?")
+
+print("so, you really %r old and %r tall? wow..." %(age, height))
