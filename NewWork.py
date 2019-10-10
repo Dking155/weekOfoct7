@@ -9,8 +9,8 @@ print(y)
 print("I said: %r" % x)
 print("I also said:  '%s'." % y)
 
-hilarious=False
-joke_evaluation="Isn't that joke so funny?! %r"
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
 print(joke_evaluation % hilarious)
 
 w = "This is the left side of.."
@@ -62,7 +62,7 @@ print("here are the days: ", days)
 print("here are the months: ", months)
 
 print("""
-Theres something going on here.
+There's something going on here.
 With the three double-quotes.
 Well be able to type as much as we like
 even 4 lines if we want, or 5 or 6.""")
@@ -72,7 +72,12 @@ even 4 lines if we want, or 5 or 6.""")
 
 # Asking questions
 
-age= input("how old are you?")
+age = input("how old are you?")
 height = input("how tall are you?")
 
-print("so, you really %r old and %r tall? wow..." %(age, height))
+print("so, you really %r old and %r tall? wow..." % (age, height))
+
+name = input("What is your name?")
+hairColor = input("what color is your hair?")
+
+print("so, your name is %r and hairColor %r?" % (name, hairColor))
